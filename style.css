@@ -1,1 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 900;
+}
+.header-section{
+    background-image: url(images/donation4.jpg);
+    color: whitesmoke;
+    text-align: center;
+    padding: 60px;
+}
+.header-section p{
+    color: white;
+    font-weight: 600;
+}
+.Donate-btn a{
+    text-decoration: none;
+    color: white;
+}
+.Donate-btn{
+    margin-top: 20px;
+    background-color: rgb(244, 75, 75);
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+}
+.Donate-today{
+    margin-top: 20px;
+    text-align: center;
+    padding: 40px;
+}
+#donate-para{
+    font-size: small;
+    margin: 20px;
+}
+#hr-para{
+    margin-top: 25px;
+    font-size: small;
+}
+.tk-select{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tk-option{
+    border: 1px solid slategrey;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.default-option{
+    border: 1px solid rgb(243, 73, 73);
+    background-color: rgb(243, 195, 195);
+}
+.donate-plan{
+    text-align: center;
+}
+.service-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.card-item{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+#first-card{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+#second-card{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#third-card{
+    background-color: rgb(247, 247, 198);
+}
 
+.volunteer-registration{
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.registration-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.volunteer-registration img{
+    width: 100%;
+}
+
+
+
+.my-update{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.form-part{
+   margin: 20px;
+   padding: 15px;
+   margin-left: 80px;
+   margin-right: 80px;
+   background-color: antiquewhite;
+
+}
+#email-input{
+    padding: 17px;
+    border: none;
+}
+.footer-part{
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+#footer-heading{
+    color: red;
+    font-style: italic;
+    margin-top: 20px;
+}
+#footer-para{
+    color: white;
+}
